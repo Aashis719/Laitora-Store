@@ -20,7 +20,9 @@ const HomePage = () => {
                 <SignInButton/>
               </div>
             </SignedOut>
+            
           </div>
+            
         </div>
       </section>
 
