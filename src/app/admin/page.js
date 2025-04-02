@@ -25,20 +25,22 @@ export default function AdminDashboard() {
   if (!isLoaded) return <p>Loading...</p>;
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-screen bg-gray-100 p-6 text-center">
+      <div className="mt-50 md:mt-5">
       <h1 className="text-2xl font-bold mb-4 text-green-500">Admin Dashboard</h1>
 
-      {/* Navigation Links */}
-      <nav className="flex space-x-4 mb-6">
-        <a href="/admin/add-product" className="bg-blue-500 text-white px-4 py-2 rounded">
-          Add Product
-        </a>
-        <a href="/admin/manage-products" className="bg-green-500 text-white px-4 py-2 rounded">
-          Manage Products
-        </a>
-      </nav>
+{/* Navigation Links */}
+<nav className="flex space-x-4 mb-6 items-center justify-center">
+  <a href="/admin/add-product" className="bg-blue-500 text-white px-4 py-2 rounded">
+    Add Product
+  </a>
+  <a href="/admin/manage-products" className="bg-green-500 text-white px-4 py-2 rounded">
+    Manage Products
+  </a>
+</nav>
 
-      <p className="text-blue-400">Welcome, Admin! Use the options above to manage your products.</p>
+<p className="text-blue-400">Welcome, Admin! Use the options above to manage your products.</p>
+      </div>
     </div>
   );
 }

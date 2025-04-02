@@ -112,9 +112,9 @@ export default function ManageProducts() {
   
 
   return (
-    <div className="p-6 bg-amber-50 text-gray-900 min-h-screen">
-      <div className="flex gap-10 justify-between py-2 px-10">
-      <h1 className="text-3xl font-bold mb-4 text-lime-600">Manage Products</h1>
+    <div className="p-4 bg-amber-50 text-gray-900 min-h-screen">
+      <div className="flex  justify-between py-2 md:px-10">
+      <h1 className=" text-xl md:text-3xl font-bold mb-4 text-lime-600">Manage Products</h1>
     {/* Add Product Button */}
     <button
         onClick={() => {
@@ -126,7 +126,7 @@ export default function ManageProducts() {
           setDescription("");
           setImageUrl("");
         }} // Show the add product form
-        className="bg-teal-700 text-white px-4 py-2 rounded mb-4 cursor-pointer hover:bg-teal-900 hover:scale-x-105 duration-200 "
+        className="bg-teal-700 text-white text-sm md:text-lg px-4 py-2 rounded mb-4 cursor-pointer hover:bg-teal-900 hover:scale-x-105 duration-200 "
       >
         Add New Product
       </button>
@@ -134,7 +134,7 @@ export default function ManageProducts() {
 
  {/* Add Product Form */}
  {isAdding && (
-        <div className="fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex items-center justify-center">
+        <div className="fixed top-0 left-0 w-full h-full bg-gray-900/60 bg-opacity-50 flex items-center justify-center">
           <div className="bg-white p-6 rounded-md w-96 text-gray-700">
             <h2 className="text-xl font-semibold mb-4"
             >Add New Product</h2>
@@ -195,7 +195,7 @@ export default function ManageProducts() {
       {loading ? (
         <p>Loading products...</p>
       ) : (
-        <ul className="space-y-4 p-10 pt-4 grid grid-cols-4 gap-5">
+        <ul className="space-y-4 p-2 pt-4 grid lg:grid-cols-4 gap-5">
          {products.length > 0 ? (
   products.map((product) => (
     <li key={product.id} className="border-2 border-amber-600 rounded p-4  flex justify-between flex-col hover:border-amber-900 duration-200">
