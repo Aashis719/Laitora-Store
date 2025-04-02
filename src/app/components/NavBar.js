@@ -12,7 +12,9 @@ const NavBar = () => {
       <div className='flex items-center justify-between w-full'>
         <div className='text-teal-500 text-3xl font-bold'>Laitora <span className='text-gray-800'>Store</span></div>
       <SignedOut>
-        <div className=' md:hidden  rounded text-teal-400  border-1 hover:bg-teal-400 hover:text-white hover:border-teal-400 duration-200  cursor-pointer py-[1.5] px-2 text-center '>Contact Us</div>
+<Link href={'/contact'}>
+<div className=' md:hidden  rounded text-teal-400  border-1 hover:bg-teal-400 hover:text-white hover:border-teal-400 duration-200  cursor-pointer py-[1.5] px-2 text-center '>Contact Us</div>
+</Link>
         </SignedOut>
         </div>
 
