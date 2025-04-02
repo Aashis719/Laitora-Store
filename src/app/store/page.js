@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { FaHeart, FaShoppingCart } from "react-icons/fa";
 import { XMarkIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 export default function Store() {
   const [products, setProducts] = useState([]);
@@ -184,7 +185,9 @@ export default function Store() {
   return (
     <div className="min-h-screen bg-amber-200">
       <header className="bg-white shadow-md py-4 px-6 fixed w-full z-50 flex items-center justify-between">
+        <Link href={'/store'}>
         <h1 className="text-2xl font-bold text-teal-500">Our Products</h1>
+        </Link>
         <div className="flex items-center space-x-4">
           <button
             onClick={openFavorites}
