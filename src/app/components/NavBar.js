@@ -24,7 +24,7 @@ const NavBar = () => {
 
 </Link>      
         <SignedIn>
-         <div className='text-gray-700 md:w-34 hover:text-teal-700 hover:bg-amber-50 cursor-pointer font-semibold py-3 px-5 rounded-2xl hidden md:block '> <SignOutButton/></div>
+         <div className='text-gray-700 md:w-34 hover:text-teal-700 hover:bg-amber-50 cursor-pointer font-semibold py-3 px-5 rounded  hidden md:block text-center '> <SignOutButton/></div>
         <div className='md:hidden'> <UserButton/></div>
         </SignedIn>
         
