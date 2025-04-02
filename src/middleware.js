@@ -1,7 +1,9 @@
-import { clerkMiddleware } from "@clerk/nextjs/server";
+import { authMiddleware } from "@clerk/nextjs";
 
-export default clerkMiddleware();
+export default authMiddleware({
+  publicRoutes: ["/", "/store", "/welcome"], // Allow these routes to be accessed without authentication
+});
 
 export const config = {
-  matcher: ["/((?!_next|static|favicon.ico).*)"], // Avoids applying middleware to static assets
+  matcher: ["/((?!_next|static|favicon.ico).*)"],
 };
