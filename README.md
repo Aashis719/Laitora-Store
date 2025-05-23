@@ -21,10 +21,10 @@ Laitora is a modern  e-commerce platform that allows users to browse and purchas
 
 ## 🔜 Upcoming Features
 
-- 🛒 **E-commerce System**: Shopping cart & checkout
-- ⭐ **Reviews & Ratings**: Customer feedback system
-- 🔔 **Notifications**: Order updates and alerts
-- 🔐 **Security Enhancements**: Secure transactions & user data protection
+- 🛒 **E-commerce System**: Shopping cart & checkout.
+- ⭐ **Reviews & Ratings**: Customer feedback system.
+- 🔔 **Notifications**: Order updates and alerts.
+- 🔐 **Security Enhancements**: Secure transactions & user data protection.
 
 
 
