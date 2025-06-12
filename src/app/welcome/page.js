@@ -1,5 +1,5 @@
 import { SignUpButton } from '@clerk/nextjs';
-
+// welcome/page.js
 const Welcome = () => {
   return (
     <div className="p-8">
