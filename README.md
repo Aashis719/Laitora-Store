@@ -8,7 +8,7 @@ Laitora is a modern  e-commerce platform that allows users to browse and purchas
 - **Styling:** Tailwind CSS
 - **Authentication:** Clerk (Google Login) 
 - **Database:** Supabase (for storing user favorites and product data)
-
+ 
 ## 🎯 Features Implemented
 
 - ✅ **User Authentication**: Google login via Clerk
