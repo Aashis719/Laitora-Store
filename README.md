@@ -4,7 +4,7 @@ Laitora is a modern  e-commerce platform that allows users to browse and purchas
 
 ## 🚀 Tech Stack
 
-- **Frontend:** Next.js (App Router)
+- **Frontend:** Next.js (App Router) 
 - **Styling:** Tailwind CSS
 - **Authentication:** Clerk (Google Login) 
 - **Database:** Supabase (for storing user favorites and product data)
