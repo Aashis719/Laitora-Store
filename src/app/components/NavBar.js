@@ -7,7 +7,7 @@ import { SignInButton, UserButton, SignedIn, SignedOut, SignOutButton } from '@c
 
 const NavBar = () => {
   return (
-    <>
+    <> 
     <div className=' w-full py-4 flex items-center justify-between px-3  md:px-30 fixed'>
       <div className='flex items-center justify-between w-full'>
         <div className='text-teal-500 text-3xl font-bold'>Laitora <span className='text-gray-800'>Store</span></div>
